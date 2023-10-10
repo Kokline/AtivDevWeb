@@ -7,6 +7,7 @@ Files are in the Master Branch and not in the Main.
 
 Ativ 01
 
+
 Suppose your municipal library needs a system to manage data from its book collection. Therefore, one of the things that needs to be created, in order to store and manage book data, is the library database.
 
 Given the context and the problem, carry out the following activities to create the database and manage the information it will store:
