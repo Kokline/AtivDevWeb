@@ -6,20 +6,25 @@ Files are in the Master Branch and not in the Main.
 
 
 Ativ 01
+
 Suppose your municipal library needs a system to manage data from its book collection. Therefore, one of the things that needs to be created, in order to store and manage book data, is the library database.
 
 Given the context and the problem, carry out the following activities to create the database and manage the information it will store:
 
 1. Create a table to model user data;
+   
 a) The table must be called “user” and have the fields id, name, email, password, status;
 
-2. Create a table to model the book data;
+3. Create a table to model the book data;
+   
 a) The table must be called “book” and have the fields id, name, isbn, author, publisher;
 
-3. Create a table to demonstrate the list of book loans so that it is possible to know which book was loaned to a specific user
+5. Create a table to demonstrate the list of book loans so that it is possible to know which book was loaned to a specific user
+   
 a) The table must be called “loan” and have the fields id, book_id (id of the book that was borrowed), user_id (id of the user who made the loan), date (date on which the loan was made) and situation. In this case, the situation field must assume the available or borrowed values.
 
-4. Create a table to model the admin data, which in this case could be the librarian.
+7. Create a table to model the admin data, which in this case could be the librarian.
+   
 a) The table must be called “admin” and have the fields id, name, email and password.
 
 To create the database and tables, use the DBMS (Database Management System) MySQL. Additionally, use the following credentials to connect to the database:
@@ -38,6 +43,7 @@ Regarding the delivery of the activity, it is mandatory to send the files referr
 
 
 Ativ 02
+
 This activity is based on the previous discursive activity. Therefore, the code and data used in it can also be used to carry out this activity.
 
 Suppose your municipal library needs a system to manage data from its book collection. Previously, a database was created with the book table and a DAO class in Java to manage the library's book data. However, it is a Web system, and it is necessary to create one or more pages that work in an integrated way with the Java DAO class and the database (book table) so that the library administrator is able to manage the library data. collection of books.
